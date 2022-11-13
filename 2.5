@@ -1,0 +1,25 @@
+namespace Ejemplos
+{
+    public class ejer2_5
+    {
+        public static void Main()
+        {
+            Console.WriteLine(" por favor ingrese la variable A");
+            double a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(" por favor ingrese la variable B");
+            double b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(" por favcor ingrese la variable C");
+            double c = Convert.ToInt32(Console.ReadLine());
+
+            double aRectangulo = b * c;  // a hace alusion a area 
+            double aTriangulo = ((a - c) * b) / 2;
+            double atotal = aRectangulo + aTriangulo;
+            Console.WriteLine("");
+            Console.WriteLine("resultado : " + atotal);
+
+
+        }
+    }
+}
